@@ -1,0 +1,33 @@
+{
+  "name": "raguccino-nutrition-scout",
+  "version": "0.1.0",
+  "private": true,
+  "description": "RAG-powered nutrition and web retrieval scout for testing Spotter's production retrieval path.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "expo/AppEntry",
+  "scripts": {
+    "start": "expo start --web",
+    "server": "node server/index.mjs",
+    "web": "expo start --web",
+    "typecheck": "tsc --noEmit",
+    "check:env": "node server/index.mjs --check"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.1.1",
+    "expo": "~56.0.12",
+    "expo-constants": "~56.0.18",
+    "expo-status-bar": "~56.0.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.85.3",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "typescript": "~6.0.3"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "RAGuccino Nutrition Scout",
+    "slug": "raguccino-nutrition-scout",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "raguccino",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.spotterlabs.raguccino",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.spotterlabs.raguccino",
+      "permissions": [
+        "android.permission.INTERNET"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
+

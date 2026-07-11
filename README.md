@@ -1,20 +1,18 @@
 # RAGuccino Nutrition Scout
 
-**Suggested name:** RAGuccino Nutrition Scout.
-
-It starts with **RAG**, says what it does, and keeps the exact production pain point
-easy to remember: Starbucks can drop a new seasonal drink before static food tables
-catch up. This app gives a model a retrieval layer so it can look up nutrition facts,
-cite internet sources, and explain serving assumptions.
+RAGuccino Nutrition Scout is a retrieval app for nutrition questions that move faster
+than static food tables. The representative chaos case: Starbucks drops a new seasonal
+drink before the usual databases have caught up, and the model needs current sources,
+serving assumptions, citations, and macro math before it says anything confident.
 
 RAGuccino is a standalone Expo + Node app designed to solve a production problem in
 Spotter: the coach needs grounded nutrition answers for foods and drinks the base
 model may not know about. Spotter website: https://www.spotter-labs.com
 
-![RAGuccino dark chat interface answering a Starbucks nutrition retrieval question with citations.](assets/readme/raguccino-chat-demo.png)
+![RAGuccino chat interface answering a Starbucks nutrition retrieval question with citations.](assets/readme/raguccino-chat-demo.png)
 
-Dark-mode retrieval, citation receipts, and just enough meme energy to keep Starbucks
-seasonal drink chaos from winning.
+Retrieval, citation receipts, and just enough meme energy to keep Starbucks seasonal
+drink chaos from winning.
 
 ## What This App Does
 

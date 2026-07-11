@@ -251,7 +251,7 @@ export default function App() {
           <View style={styles.header}>
             <View style={styles.headerCopy}>
               <Text style={styles.title}>RAGuccino Nutrition Scout</Text>
-              <Text style={styles.subtitle}>dark-mode retrieval with citation receipts</Text>
+              <Text style={styles.subtitle}>retrieval with citation receipts</Text>
             </View>
             <View style={[styles.statusPill, { borderColor: healthTone }]}>
               <View style={[styles.statusDot, { backgroundColor: healthTone }]} />

@@ -11,6 +11,11 @@ RAGuccino is a standalone Expo + Node app designed to solve a production problem
 Spotter: the coach needs grounded nutrition answers for foods and drinks the base
 model may not know about. Spotter website: https://www.spotter-labs.com
 
+![RAGuccino dark chat interface answering a Starbucks nutrition retrieval question with citations.](assets/readme/raguccino-chat-demo.png)
+
+Dark-mode retrieval, citation receipts, and just enough meme energy to keep Starbucks
+seasonal drink chaos from winning.
+
 ## What This App Does
 
 - Runs in the browser through Expo Web.
